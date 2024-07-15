@@ -3,7 +3,7 @@
 fun main() {
     val funTutorial = KolinFunctions()
 
-    val  base = 4.0
+    val  base = 3.0
     val p = 2.0
 
     val res= funTutorial.simpleFun(base, p)
