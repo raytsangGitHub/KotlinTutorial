@@ -1,14 +1,16 @@
+// ref: https://www.youtube.com/watch?v=F9UC9DY-vIU
+//
 class KolinFunctions {
 
     //Kotlin Inline Function. Unit means void
-    fun InlineFunctions(function:() -> Unit){
+    fun InlineFunction(function:() -> Unit){
         println("this is inline function a")
         function()
         println("this is inline function b")
     }
 
-    // ** inline functions
-
+    // Kotlin single line function
+    fun multiply(x:Int, y: Int) = x * y
 
     // Kotlin Lambda Function
 
