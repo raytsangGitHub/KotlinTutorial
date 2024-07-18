@@ -13,6 +13,18 @@ fun main() {
     val multipleRes = funTutorial.multiply(6, 5)
     println("the multiplication result: $multipleRes")
 
+    //test for targetSum
+    val targetsum = TargetSum()
+    val test = arrayOf(1, 5, 10, 20, 80)
+    val t = 90
+    val resTargetSum = targetsum.hasPairWithTarget(test, t)
+    if(resTargetSum == 1) {
+        println("there exist the target sum of $t")
+    }else   {
+        println("there no target sum of $t")
+    }
+
+
     //Simple return function
 
 

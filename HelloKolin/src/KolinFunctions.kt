@@ -2,19 +2,23 @@
 //
 class KolinFunctions {
 
-    //Kotlin Inline Function. Unit means void
+    //Inline Function. Unit means void
     fun InlineFunction(function:() -> Unit){
         println("this is inline function a")
         function()
         println("this is inline function b")
     }
+    //more inline function --
 
     // Kotlin single line function
     fun multiply(x:Int, y: Int) = x * y
 
-    // Kotlin Lambda Function
+    // Kotlin Lambda Function - this function is stored as object which introduce memory over head
+    // use an inline keyword reduce overhead.
 
-    //Higher-Order Functions
+
+    //Higher-Order Functions -this function is stored as object which introduce memory over head
+    //use an inline keyword reduce overhead.
 
     //Kotlin Tail Recursion
 
