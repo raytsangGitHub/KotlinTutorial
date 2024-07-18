@@ -5,9 +5,14 @@ fun main() {
 
     val  base = 3.0
     val p = 2.0
-
+    //testing typical function
     val res= funTutorial.simpleFun(base, p)
-    println(res)
+    println("the result of: $p to the power of $base = $res")
+
+    //testing inline function
+    val multipleRes = funTutorial.multiply(6, 5)
+    println("the multiplication result: $multipleRes")
+
     //Simple return function
 
 
