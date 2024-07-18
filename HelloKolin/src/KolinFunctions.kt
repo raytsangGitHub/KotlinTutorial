@@ -6,6 +6,10 @@ class KolinFunctions {
         function()
         println("this is inline function b")
     }
+
+    // ** inline functions
+
+
     // Kotlin Lambda Function
 
     //Higher-Order Functions
