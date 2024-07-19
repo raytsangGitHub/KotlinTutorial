@@ -11,7 +11,9 @@ class KolinFunctions {
     //more inline function --
 
     // Kotlin single line function
-    fun multiply(x:Int, y: Int) = x * y
+   // fun multiply(x:Int, y: Int) : Int = x * y
+    // the above line can be written as, no need : Int
+    fun multiply(x:Int, y: Int) = x * y //notice no return keyword
 
     // Kotlin Lambda Function - this function is stored as object which introduce memory over head
     // use an inline keyword reduce overhead.
