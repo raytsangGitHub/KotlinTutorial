@@ -24,7 +24,7 @@ fun main() {
         println("there no target sum of $t")
     }
 
-    // ** test process word
+    // ** test process word, not yet implemented.
     val processWord= WordBreakDp()
     processWord.processWord()
 
