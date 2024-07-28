@@ -1,14 +1,26 @@
+// ref: https://www.youtube.com/watch?v=F9UC9DY-vIU
+//
 class KolinFunctions {
 
-    //Kotlin Inline Function. Unit means void
-    fun InlineFunctions(function:() -> Unit){
+    //Inline Function. Unit means void
+    fun InlineFunction(function:() -> Unit){
         println("this is inline function a")
         function()
         println("this is inline function b")
     }
-    // Kotlin Lambda Function
+    //more inline function --
 
-    //Higher-Order Functions
+    // Kotlin single line function
+   // fun multiply(x:Int, y: Int) : Int = x * y
+    // the above line can be written as, no need : Int
+    fun multiply(x:Int, y: Int) = x * y //notice no return keyword
+
+    // Kotlin Lambda Function - this function is stored as object which introduce memory over head
+    // use an inline keyword reduce overhead.
+
+
+    //Higher-Order Functions -this function is stored as object which introduce memory over head
+    //use an inline keyword reduce overhead.
 
     //Kotlin Tail Recursion
 

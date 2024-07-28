@@ -5,9 +5,29 @@ fun main() {
 
     val  base = 5.0
     val p = 2.0
-
+    //testing typical function
     val res= funTutorial.simpleFun(base, p)
-    println(res)
+    println("the result of: $p to the power of $base = $res")
+
+    //testing inline function
+    val multipleRes = funTutorial.multiply(6, 5)
+    println("the multiplication result: $multipleRes")
+
+    //test for targetSum
+    val targetsum = TargetSum()
+    val test = arrayOf(1, 5, 10, 20, 80)
+    val t = 90
+    val resTargetSum = targetsum.hasPairWithTarget(test, t)
+    if(resTargetSum == 1) {
+        println("there exist the target sum of $t")
+    }else   {
+        println("there no target sum of $t")
+    }
+
+    // ** test process word
+    val processWord= WordBreakDp()
+    processWord.processWord()
+
     //Simple return function
 
     //test cloning.
