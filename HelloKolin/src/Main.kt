@@ -10,6 +10,7 @@ fun main() {
     println(res)
     //Simple return function
 
+    //test cloning.
 
 
     //val testOpen= InheritTest()
